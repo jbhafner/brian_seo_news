@@ -2,7 +2,7 @@
 
 Live URL: <a href="https://silly-sign.surge.sh/" target="_blank">https://silly-sign.surge.sh/</a>
 
-This is my first blog using Kentico Content.  The front end is a simple React app.
+This is my first blog using Kentico Kontent.  The front end is a simple React app.
 
 Background:
 ----------------------------------------------------
