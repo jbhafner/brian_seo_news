@@ -13,7 +13,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">
-            Brian's First Kentico Kontent Blog
+            Brian's SEO News Blog
           </h1>
         </header>
         {/* Specifies routes and their components */}

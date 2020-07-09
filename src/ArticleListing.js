@@ -17,7 +17,7 @@ class ArticleListing extends Component {
 
    fetchArticles() {
       client.items()
-         .type('article')
+         .type('daily_seo_blog_post')
          .elementsParameter(['url_pattern', 'title'])
          .toObservable()
          // unsubscribe when unsubscribeSubject fires
@@ -29,6 +29,7 @@ class ArticleListing extends Component {
                articles: response.items
             });
          });
+         console.log(this.state);
    }
 
    unsubscribe() {

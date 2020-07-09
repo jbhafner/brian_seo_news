@@ -1,5 +1,5 @@
 {
-  "name": "brian-kontent-react-app",
+  "name": "brian_seo_news",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,7 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "rxjs": "^6.5.5"
+    "rxjs": "^6.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
