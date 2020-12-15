@@ -49,7 +49,7 @@ class ArticleListing extends Component {
       if (this.state.loaded) {
          return (
             <ul>
-               {this.state.articles.map((article) => {
+               {this.state.articles.sort((a,b)=>a.system.lastModified - b.system.lastModified).map((article) => {
                   return (
                      <li key={article.url_pattern.value}>
                         <Link to={`/post/${article.url_pattern.value}`}>
